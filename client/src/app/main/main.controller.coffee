@@ -1,5 +1,5 @@
 angular.module 'fakeLunchHub'
-  .controller 'MainController', ($timeout, webDevTec, toastr) ->
+  .controller 'MainCtrl', ($timeout, webDevTec, toastr) ->
     'ngInject'
     vm = this
     activate = ->
