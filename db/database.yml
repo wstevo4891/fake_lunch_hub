@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: fake_lunch_hub_development
+  pool: 5
+  username: fake_lunch_hub
+  password: lunchtime
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: fake_lunch_hub_test
+  pool: 5
+  username: fake_lunch_hub
+  password: lunchtime
